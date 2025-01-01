@@ -1,48 +1,39 @@
-# ATS Hub Analyzer
+# ATS Hub
 
 ### Problem Statement
 
-In today's competitive job market, job seekers face challenges ensuring their resumes align with job descriptions, meeting the criteria of Applicant Tracking Systems (ATS). ATS filters often reject resumes that lack specific keywords or don't match job requirements, reducing the chances of securing interviews. This creates a need for a tool to help job seekers optimize their resumes for ATS compliance and highlight areas for improvement.
+In today’s competitive job market, job seekers often struggle to ensure their resumes align with job descriptions and meet the requirements of Applicant Tracking Systems (ATS). These systems frequently filter out resumes that lack relevant keywords or fail to match job criteria, significantly lowering the chances of landing an interview. This highlights the need for a tool that helps job seekers optimize their resumes for ATS compatibility and identify areas for improvement.
 
 ### Business Use Cases
 
-1. Resume Optimization for ATS
+1. Career Advancement Support
 
-   Assist job seekers in tailoring their resumes to specific job descriptions by identifying missing keywords and providing actionable feedback.
+   Empower job seekers with intelligent resume optimization tools that increase their chances of passing Applicant Tracking Systems (ATS) and securing interviews.
 
-2. Personalized Resume Improvement
+2. Recruitment Efficiency Enhancement
 
-   Deliver detailed analysis and suggestions for enhancing resume content, improving the likelihood of securing interviews.
+   Provide recruiters and HR professionals with a streamlined solution for quickly evaluating candidate resumes and identifying top-tier talent.
 
-3. Efficient Resume Evaluation
+3. Educational and Career Service Innovation
 
-   Streamline the process of evaluating resumes for job applicants, recruiters, or career counselors, ensuring effective job application strategies.
+   Enable career centers, educational institutions, and professional development platforms to offer cutting-edge resume analysis as a value-added service.
 
-4. Enhancing Job Search Success
-
-   Empower candidates with insights into how their resumes align with job postings, helping them stand out in a crowded job market.
-
-5. Scalable Job Application Support
-
-   Provide a scalable solution for career platforms, educational institutions, or HR consultancies to offer resume analysis as a service.
 
 ### Key Features
 
-1. Resume-Job Description Match Analysis
+1. Intelligent Resume-Job Matching
 
-   Calculates a match percentage between the provided resume and job description.
+   Utilize advanced AI algorithms to calculate precise compatibility between a candidate's resume and specific job descriptions, generating actionable insights.
 
-2. Keyword Identification
+2. Comprehensive Performance Diagnostics
 
-   Lists critical missing keywords to improve ATS compatibility.
+   Deliver detailed analysis including keyword optimization, skill gap identification, and personalized recommendations for resume improvement.
 
-3. Detailed Profile Summary
+3. User-Friendly Digital Interface
 
-   Offers a comprehensive analysis of strengths and areas for improvement in the resume.
+   Create an intuitive, accessible platform that allows seamless resume upload, instant analysis, and easy-to-understand professional guidance.
 
-4. User-Friendly Interface
 
-   A simple and intuitive interface powered by Streamlit, enabling seamless user interaction.
 
 ### How It Works
 
@@ -60,44 +51,3 @@ In today's competitive job market, job seekers face challenges ensuring their re
    - Match Score: Displays a percentage match.
    - Missing Keywords: Lists important keywords missing from the resume.
    - Profile Summary: Provides detailed suggestions for resume improvement
-
-### Project Setup
-
-1. Clone the Repository
-
-```bash
-git clone <repository-url>
-cd smart-ats-resume-analyzer
-```
-
-2. Create Virtual Environment
-
-```bash
-conda create -p env python=3.10 -y
-```
-
-3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Environment Configuration Create a .env file in the root directory:
-
-```bash
-GOOGLE_API_KEY =your_api_key_here
-```
-
-5. Run the Application
-
-```bash
-streamlit run app.py
-```
-
-### Future Enhancements
-
-    - Multi-Format Resume Support: Extend support to other formats like Word (.docx).
-    - Customizable Feedback: Allow users to specify job sectors for tailored suggestions.
-    - Multilingual Support: Enable resume analysis in multiple languages.
-    - Integration with Job Portals: Directly fetch job descriptions from popular job boards.
-    - Analytics Dashboard: Provide aggregate insights into common gaps in resumes.
